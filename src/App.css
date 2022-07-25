@@ -1,3 +1,128 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./solarsystem.jpg');
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+  margin-right: 20px;
   text-align: center;
+}
+
+.header {
+  font-size: 20px;
+  margin: 30px;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.container-planet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  padding: 25px;
+}
+
+.planet {
+  padding: 10px;
+  width: 100%;
+}
+
+.planet-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-planet {
+  align-items: center;
+  display: flex;
+}
+
+.name-planet {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.planet-card img {
+  text-align: center;
+}
+
+.planet-card:nth-child( 1 ) {
+  width: 80px;
+}
+
+.planet-card:nth-child( 2 ) {
+  width: 110px;
+}
+
+.planet-card:nth-child( 3 ) {
+  width: 150px;
+}
+
+.planet-card:nth-child( 4 ) {
+  width: 140px;
+}
+
+.planet-card:nth-child( 5 ) {
+  width: 250px;
+}
+
+.planet-card:nth-child( 6 ) {
+  width: 220px;
+}
+
+.planet-card:nth-child( 7 ) {
+  width: 150px;
+}
+
+.planet-card:nth-child( 8 ) {
+  width: 130px;
+}
+
+.missions {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20px;
+  width: auto;
+}
+
+.container-missions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.mission-card {
+  background-color: rgb(20, 8, 34);
+  border: 1px solid rgb(57, 20, 75);
+  border-radius: 15px;
+  box-shadow: 4px 6px 8px rgb(112, 33, 101);
+  height: 130px;
+  margin: 16px;
+  opacity: 0.7;
+  width: 300px;
+}
+
+.mission-name {
+  border-bottom: 1px solid rgb(68, 0, 114);
+  margin: 10px;
+}
+
+.mission-name h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+footer {
+  height: 40px;
+  margin-top: 30px;
 }
